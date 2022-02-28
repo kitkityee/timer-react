@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 2rem;
+  background-color: gray;
+}
+
+.container button {
+  color: rgb(219, 216, 216);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: rgb(46, 46, 46);
+  border: rgb(44, 44, 44) solid 1px;
+  padding: 0px;
+  font: inherit;
+  font-size: 2rem;
+}
+
+.start {
+  padding: 0rem 50px;
+}
+
+.container button:hover {
+  background: rgb(85, 84, 84);
+  color: rgb(39, 38, 38);
+  cursor: pointer;
+}
+
+.container button:active {
+  background: rgb(66, 66, 66);
+}

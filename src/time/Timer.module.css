@@ -1,0 +1,12 @@
+.time {
+  display: grid;
+  place-items: center;
+}
+
+.time p {
+  font-family: inherit;
+  color: white;
+  font-size: 10rem;
+  place-items: center;
+  display: inline-block;
+}
